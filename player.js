@@ -9,9 +9,9 @@ let pPause = document.querySelector('#play-pause'); // element where play and pa
 
 songIndex = 0;
 songs = ['./assets/music/01 - Kill This Love (Intro).mp3', './assets/music/02 - Kill This Love (Live at The Show).mp3']; // object storing paths for audio objects
-thumbnails = ['./assets/images/images (3).jpeg', './assets/images/images (3).jpeg']; // object storing paths for album covers and backgrounds
-songArtists = ['Beyonce', 'Dua Lipa']; // object storing track artists
-songTitles = ["Don't Hurt Yourself", "Don't Start Now"]; // object storing track titles
+thumbnails = ['./assets/images/blackpink.jpg', './assets/images/blackpink.jpg']; // object storing paths for album covers and backgrounds
+songArtists = ['BLACKPINK', 'BLACKPINK']; // object storing track artists
+songTitles = ["KILL THIS LOVE (Intro)", "KILL THIS LOVE"]; // object storing track titles
 
 // function where pp (play-pause) element changes based on playing boolean value - if play button clicked, change pp.src to pause button and call song.play() and vice versa.
 let playing = true;
@@ -47,7 +47,6 @@ function nextSong() {
     };
     song.src = songs[songIndex];
     thumbnail.src = thumbnails[songIndex];
-    background.src = thumbnails[songIndex];
 
     songArtist.innerHTML = songArtists[songIndex];
     songTitle.innerHTML = songTitles[songIndex];
@@ -64,7 +63,7 @@ function previousSong() {
     };
     song.src = songs[songIndex];
     thumbnail.src = thumbnails[songIndex];
-    background.src = thumbnails[songIndex];
+    
 
     songArtist.innerHTML = songArtists[songIndex];
     songTitle.innerHTML = songTitles[songIndex];
