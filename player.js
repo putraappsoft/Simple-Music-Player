@@ -8,8 +8,8 @@ const progressBar = document.querySelector('#progress-bar'); // element where pr
 let pPause = document.querySelector('#play-pause'); // element where play and pause image appears
 
 songIndex = 0;
-songs = ['./assets/music/beyonce.mp3', './assets/music/dontstartnow.mp3']; // object storing paths for audio objects
-thumbnails = ['./assets/images/lemonade.png', './assets/images/dontstartnow.png']; // object storing paths for album covers and backgrounds
+songs = ['./assets/music/beyonce.mp3', './assets/music/02 - Kill This Love (Live at The Show).mp3']; // object storing paths for audio objects
+thumbnails = ['./assets/images/lemonade.png', './assets/images/images (3).jpeg']; // object storing paths for album covers and backgrounds
 songArtists = ['Beyonce', 'Dua Lipa']; // object storing track artists
 songTitles = ["Don't Hurt Yourself", "Don't Start Now"]; // object storing track titles
 
