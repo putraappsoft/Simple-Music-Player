@@ -4,19 +4,6 @@ body {
     background: #000000;
 }
 
-#background {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    filter: blur(10px);
-    z-index: -1;
-}
-
 /* container for music player */
 .container {
     position: absolute;
