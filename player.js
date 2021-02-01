@@ -9,7 +9,7 @@ let pPause = document.querySelector('#play-pause'); // element where play and pa
 
 songIndex = 0;
 songs = ['./assets/music/beyonce.mp3', './assets/music/02 - Kill This Love (Live at The Show).mp3']; // object storing paths for audio objects
-thumbnails = ['./assets/images/lemonade.png', './assets/images/images (3).jpeg']; // object storing paths for album covers and backgrounds
+thumbnails = ['./assets/images/images (3).jpeg', './assets/images/images (3).jpeg']; // object storing paths for album covers and backgrounds
 songArtists = ['Beyonce', 'Dua Lipa']; // object storing track artists
 songTitles = ["Don't Hurt Yourself", "Don't Start Now"]; // object storing track titles
 
