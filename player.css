@@ -46,9 +46,9 @@
     color: rgb(244, 167, 186);
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     bottom: 21%;
-    left: 28%;
+    left: 26%;
 }
 
 /* track title */
@@ -57,9 +57,9 @@
     z-index: 4;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     bottom: 16%;
-    left: 28%;
+    left: 26%;
 }
 
 /* style for play and pause images */
