@@ -10,7 +10,7 @@ let pPause = document.querySelector('#play-pause'); // element where play and pa
 songIndex = 0;
 songs = ['./assets/music/01 - Kill This Love (Intro).mp3', './assets/music/02 - Kill This Love (Live at The Show).mp3', './assets/music/03 - Crazy Over You (Live at The Show).mp3', './assets/music/04 - How You Like That (Live at The Show).mp3']; // object storing paths for audio objects
 thumbnails = ['./assets/images/blackpink.jpg', './assets/images/blackpink.jpg', './assets/images/blackpink.jpg', './assets/images/blackpink.jpg']; // object storing paths for album covers and backgrounds
-songArtists = ['BLACKPINK', 'BLACKPINK', 'BLACKPINK', 'BLACKPINK']; // object storing track artists
+songArtists = ['BLACKPINK :THE SHOW', 'BLACKPINK :THE SHOW', 'BLACKPINK :THE SHOW', 'BLACKPINK :THE SHOW']; // object storing track artists
 songTitles = ["KILL THIS LOVE (Intro)", "KILL THIS LOVE", "CRAZY OVER YOU", "HOW YOU LIKE THAT"]; // object storing track titles
 
 // function where pp (play-pause) element changes based on playing boolean value - if play button clicked, change pp.src to pause button and call song.play() and vice versa.
