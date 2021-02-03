@@ -77,8 +77,8 @@ function updateProgressValue() {
     progressBar.max = song.duration;
     progressBar.value = song.currentTime;
     document.querySelector('.currentTime').innerHTML = (formatTime(Math.floor(song.currentTime)));
-    if (document.querySelector('.durationTime').innerHTML === "LOADING") {
-        document.querySelector('.durationTime').innerHTML = "TUNGGU";
+    if (document.querySelector('.durationTime').innerHTML === "NaN:NaN") {
+        document.querySelector('.durationTime').innerHTML = "0:00";
     } else {
         document.querySelector('.durationTime').innerHTML = (formatTime(Math.floor(song.duration)));
     }
