@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Music Player</title>
+    <title>Music Player by "Putra Production"</title>
     <link rel="stylesheet" href="player.css">
+	<script type="text/javascript">
+if (typeof document.onselectstart!="undefined") {
+document.onselectstart=new Function ("return false");
+}
+else{
+document.onmousedown=new Function ("return false");
+document.onmouseup=new Function ("return true");
+}
+</script >
 </head>
 <body>
     <audio src="./assets/music/01 - Kill This Love (Intro).mp3" id="song"></audio>
