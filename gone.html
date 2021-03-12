@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Player by "Putra Production"</title>
+    <link rel="stylesheet" href="player.css">
+	<script type="text/javascript">
+if (typeof document.onselectstart!="undefined") {
+document.onselectstart=new Function ("return false");
+}
+else{
+document.onmousedown=new Function ("return false");
+document.onmouseup=new Function ("return true");
+}
+</script >
+</head>
+<body>
+    <audio src="https://github.com/putraappsoft/Simple-Music-Player/raw/master/assets/music/rose%20blackpink%20gone.mp3" id="song"></audio>
+
+    <div class="container">  
+        <div class="box"></div>      
+        <img src="https://1.bp.blogspot.com/-7fuz3wrVowc/YEsekuyg51I/AAAAAAAABM4/xhIbKWncTPIcQrbvSv0cnS6uSwcBe-WmwCPcBGAYYCw/s320/04b543b45bb91449afcf59d62ec55be8.1000x1000x1.jpg" id="thumbnail" />
+        
+        <img src="./assets/icons/play.png" onclick="playPause()" id="play-pause" />
+        <img src="./assets/icons/forward.png" onclick="nextSong()" id="next-song" />
+        <img src="./assets/icons/backward.png" onclick="previousSong()" id="previous-song" />
+
+        <div class="song-artist">ROSÉ -R- Album</div>
+        <div class="song-title">ROSÉ - GONE</div>
+
+        <!-- Input element for progress bar - min=0 starting value of every song - max length will change per song so leave empty -->
+        
+        <input 
+            type="range" 
+            id="progress-bar" 
+            min="0" 
+            max="" 
+            value="0" 
+            onchange="changeProgressBar()"
+        />
+
+        <div class="currentTime"></div>
+        <div class="durationTime"></div>
+    </div>
+
+    <script src="player.js"></script>
+</body>
+</html>
